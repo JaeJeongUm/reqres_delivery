@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         REGISTRY = 'user19.azurecr.io'
-        IMAGE_NAME = 'product'
+        IMAGE_NAME = 'delivery'
         AKS_CLUSTER = 'use19-aks2'
         RESOURCE_GROUP = 'user19-rsrgrp2'
         AKS_NAMESPACE = 'default'
